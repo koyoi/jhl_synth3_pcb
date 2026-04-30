@@ -90,7 +90,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "02e6697a-8c77-4063-9cda-a9feb388db97")
-		(at 243.405 36.655)
+		(at 165.005 110.575455)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D41"
@@ -107,6 +107,7 @@
 		(property "Value" "LED_Small_Filled"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "612053a9-6848-41d1-b490-bf510dbaa08f")
 			(effects
 				(font
@@ -914,7 +915,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "11e9bef9-6e6e-4d9d-9bc6-2ac462e9de2d")
-		(at 247.8 26.295)
+		(at 165.005 97.39)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D49"
@@ -931,6 +932,7 @@
 		(property "Value" "LED_Small_Filled"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8220f2bd-e4b6-4367-82bc-ab9558f5f771")
 			(effects
 				(font
@@ -1802,7 +1804,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "146a7b0c-344b-4e87-b5da-0ba5cc11dfd0")
-		(at 234.615 36.655)
+		(at 165.005 108.691818)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D17"
@@ -1819,6 +1821,7 @@
 		(property "Value" "LED_Small_Filled"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f2a5a66e-231a-4f7c-82e8-33a51114ba70")
 			(effects
 				(font
@@ -6283,7 +6286,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "37501fbf-63a8-4bea-ad8b-45a36015745b")
-		(at 230.22 47.015)
+		(at 165.005 116.226364)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D9"
@@ -6300,6 +6303,7 @@
 		(property "Value" "LED_Small_Filled"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1404cb47-1894-443e-aaf8-2238d66a2443")
 			(effects
 				(font
@@ -7393,7 +7397,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3e3b68c0-2cdd-4bf9-8101-018b6fe969e5")
-		(at 247.8 47.015)
+		(at 165.005 114.342727)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D57"
@@ -7410,6 +7414,7 @@
 		(property "Value" "LED_Small_Filled"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d0f19423-daa6-4852-afe1-425f0067f56f")
 			(effects
 				(font
@@ -8564,7 +8569,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "492c10b4-8a3f-4e4d-a9e1-fd5f5f4b5719")
-		(at 256.59 47.015)
+		(at 165.005 112.459091)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D81"
@@ -8581,6 +8586,7 @@
 		(property "Value" "LED_Small_Filled"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "00d6671a-de52-4956-b09b-8197b06206ce")
 			(effects
 				(font
@@ -14266,7 +14272,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8d6baf5b-411a-4802-9ab8-fac905e4d979")
-		(at 252.195 36.655)
+		(at 165.005 104.924545)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D65"
@@ -14283,6 +14289,7 @@
 		(property "Value" "LED_Small_Filled"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "93a302a4-f4e9-4e4c-baff-7f288cad6136")
 			(effects
 				(font
@@ -17804,7 +17811,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a56fdf67-f7d7-453e-bf61-19133cea2fb7")
-		(at 230.22 26.295)
+		(at 165.005 99.273636)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D1"
@@ -17821,6 +17828,7 @@
 		(property "Value" "LED_Small_Filled"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a9384072-d846-4a89-85c3-7c54c96ed3c6")
 			(effects
 				(font
@@ -19133,7 +19141,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b1b9e28d-f904-4af3-af9f-d31d97b89f85")
-		(at 239.01 47.015)
+		(at 165.005 118.11)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D33"
@@ -19150,6 +19158,7 @@
 		(property "Value" "LED_Small_Filled"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f7a78574-8e2f-4e26-87fc-a7110692c4c3")
 			(effects
 				(font
@@ -19355,7 +19364,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b66b67c1-b327-4bf2-91cf-ff2ae636f8c9")
-		(at 239.01 26.295)
+		(at 165.005 101.157273)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D25"
@@ -19372,6 +19381,7 @@
 		(property "Value" "LED_Small_Filled"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0fe94700-b2c9-48b1-b6a7-0e7e72f732de")
 			(effects
 				(font
@@ -24605,7 +24615,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d37fe69c-c702-4c95-9a7f-689778895fb8")
-		(at 256.59 26.295)
+		(at 165.005 103.040909)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D73"
@@ -24622,6 +24632,7 @@
 		(property "Value" "LED_Small_Filled"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c7349867-5806-438a-a49a-e6ddb968e224")
 			(effects
 				(font
@@ -28357,7 +28368,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f0fe4d8a-83f0-40b4-a88d-ae110d0fef98")
-		(at 260.985 36.655)
+		(at 165.005 106.808182)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D89"
@@ -28374,6 +28385,7 @@
 		(property "Value" "LED_Small_Filled"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "160e85dd-2a44-4be7-ae2b-1fea4163f616")
 			(effects
 				(font
