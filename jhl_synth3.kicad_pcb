@@ -30258,6 +30258,39 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 41.5 116.5)
+		(end 161.5 188.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "1a56376e-7bec-4d5c-8006-9768b0dde1fe")
+	)
+	(gr_rect
+		(start 181 125)
+		(end 239 159.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "80db0336-65de-408b-ae8c-dfd5e2860de6")
+	)
+	(gr_rect
+		(start 189.918851 128.01272)
+		(end 223.918851 157.01272)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "d105382f-2de8-46ca-b35e-36103415e8b9")
+	)
 	(gr_text "ピン配置よくよく\n確認すること！"
 		(at 85 33 0)
 		(layer "F.Cu")
@@ -30269,6 +30302,34 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(gr_text "monotronサイズ(筐体外形)\n高さ：最厚で28mm\n単四x2"
+		(at 143 194.5 0)
+		(layer "Dwgs.User")
+		(uuid "31d65c2a-f9f5-47ea-8d2f-4c768530ce3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1.8 128x160 lcd"
+		(at 201 133.5 0)
+		(layer "Dwgs.User")
+		(uuid "0baace0f-e6fe-406c-bd4d-3b8fae4d7578")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(group ""
+		(uuid "2f405258-4450-4dac-84db-c4e1c1a59690")
+		(members "80db0336-65de-408b-ae8c-dfd5e2860de6" "d105382f-2de8-46ca-b35e-36103415e8b9")
 	)
 	(embedded_fonts no)
 )

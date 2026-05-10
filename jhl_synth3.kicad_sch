@@ -1869,6 +1869,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "locallib:YAAJ_WeAct_BlackPill_Part_Like"
 			(pin_names
 				(offset 1.016)
@@ -3849,9 +4013,9 @@
 		)
 		(uuid "1c45004d-c2b4-4d86-9357-9d1b5b6ad751")
 	)
-	(text "I2C LED illum"
+	(text "I2C "
 		(exclude_from_sim no)
-		(at 213.36 51.308 0)
+		(at 205.486 43.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3899,6 +4063,17 @@
 			)
 		)
 		(uuid "8dbbe183-216a-4b0b-9522-0ceb0815ffcd")
+	)
+	(text "cardKB 0x5F (3.3V)\nLED illum HT16k33 (5V!)"
+		(exclude_from_sim no)
+		(at 197.104 50.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "957c07e6-a519-4f48-82e5-4b228fc1940b")
 	)
 	(text ""
 		(exclude_from_sim no)
@@ -3952,6 +4127,12 @@
 			(justify left)
 		)
 		(uuid "fd85580a-74a2-4f6b-8359-66216c489acc")
+	)
+	(junction
+		(at 195.58 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ad6b3ab-a60b-4eb8-8a40-378d0a61d549")
 	)
 	(junction
 		(at 222.25 116.84)
@@ -4079,6 +4260,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 116.84) (xy 107.95 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124c2718-953c-4807-86d2-2837a32ff673")
+	)
+	(wire
+		(pts
 			(xy 254 60.96) (xy 255.27 60.96)
 		)
 		(stroke
@@ -4109,6 +4300,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 114.3) (xy 107.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22dc488c-5ed8-4761-a377-2e02ecec88e5")
+	)
+	(wire
+		(pts
 			(xy 148.59 78.74) (xy 160.02 78.74)
 		)
 		(stroke
@@ -4116,6 +4317,16 @@
 			(type default)
 		)
 		(uuid "2342f0c9-92e3-4520-b84e-639e4bf573b6")
+	)
+	(wire
+		(pts
+			(xy 195.58 81.28) (xy 195.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281183d1-2691-4fa1-b61d-8572e20a4ac4")
 	)
 	(wire
 		(pts
@@ -4179,6 +4390,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 81.28) (xy 185.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4334a25d-ac4a-4461-9400-142a75cbb8e1")
+	)
+	(wire
+		(pts
 			(xy 151.13 152.4) (xy 153.67 152.4)
 		)
 		(stroke
@@ -4209,17 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 81.28) (xy 107.95 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5199704e-7a9c-45c4-b12b-3ebc8f70bd37")
-	)
-	(wire
-		(pts
-			(xy 149.86 111.76) (xy 148.59 111.76)
+			(xy 152.4 111.76) (xy 148.59 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4309,6 +4520,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 81.28) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f70e59-a556-41c0-98d6-4f542504bb5f")
+	)
+	(wire
+		(pts
 			(xy 252.73 24.13) (xy 254 24.13)
 		)
 		(stroke
@@ -4326,6 +4547,16 @@
 			(type default)
 		)
 		(uuid "7ff1eae9-a87c-4cd7-a07a-84e72a31e1d9")
+	)
+	(wire
+		(pts
+			(xy 104.14 104.14) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "888a46f3-8a1a-4058-9b24-0c7639f70335")
 	)
 	(wire
 		(pts
@@ -4396,6 +4627,26 @@
 			(type default)
 		)
 		(uuid "942a1aa3-1c48-4e16-a750-924142955009")
+	)
+	(wire
+		(pts
+			(xy 185.42 83.82) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95fefb72-b777-48a9-9e19-13ae416c04e2")
+	)
+	(wire
+		(pts
+			(xy 180.34 83.82) (xy 185.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9693144d-0764-441d-a262-36390a96aace")
 	)
 	(wire
 		(pts
@@ -4486,6 +4737,16 @@
 			(type default)
 		)
 		(uuid "b15d308d-3d93-4bec-ae43-abe60df4d43a")
+	)
+	(wire
+		(pts
+			(xy 195.58 86.36) (xy 195.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f4c16f-2a65-4ec9-93a7-58ff14222657")
 	)
 	(wire
 		(pts
@@ -4949,6 +5210,30 @@
 			)
 		)
 	)
+	(global_label "sw2"
+		(shape input)
+		(at 180.34 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c729263-a3bd-42d7-ab82-6cdc19366bdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.7867 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ADC0"
 		(shape input)
 		(at 151.13 147.32 180)
@@ -4970,6 +5255,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "sw1"
+		(shape input)
+		(at 152.4 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f103908-b554-4db2-8b61-bcdcf34726a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9533 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5141,6 +5450,30 @@
 			)
 		)
 	)
+	(global_label "sw2"
+		(shape input)
+		(at 102.87 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b2ed407-3a1a-4d7c-8299-761b52463783")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.3167 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SPI_MOSI"
 		(shape input)
 		(at 250.19 36.83 180)
@@ -5213,6 +5546,30 @@
 			)
 		)
 	)
+	(global_label "sw1"
+		(shape input)
+		(at 180.34 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95a6a13d-56b1-4272-84d0-8c0f140e65bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.7867 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "I2S_SD"
 		(shape input)
 		(at 254 60.96 180)
@@ -5239,7 +5596,7 @@
 	)
 	(global_label "LCD_RESET"
 		(shape input)
-		(at 151.13 54.61 180)
+		(at 104.14 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5249,7 +5606,7 @@
 		)
 		(uuid "abe9a145-1854-4b72-961d-6c8d7d3d71ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.864 54.61 0)
+			(at 90.874 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5717,33 +6074,9 @@
 			)
 		)
 	)
-	(global_label "ADC0"
-		(shape input)
-		(at 149.86 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5f7860e-9690-4a0b-8551-0f4eb393f264")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6833 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "LCD_A0"
 		(shape input)
-		(at 151.13 57.15 180)
+		(at 102.87 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5753,7 +6086,7 @@
 		)
 		(uuid "fba6f0cc-9b66-4777-8e58-8dab79af1d9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.311 57.15 0)
+			(at 93.051 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5916,6 +6249,85 @@
 			(project "jhl_synth3"
 				(path "/1003adab-afc6-49b9-9ffc-29acd72582a7"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 190.5 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a39a48d-af84-44b2-9780-3b1b0b959521")
+		(property "Reference" "SW2"
+			(at 201.93 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 201.93 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 190.5 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "55935bf1-08d5-4dde-9f61-95714e893cb8")
+		)
+		(pin "1"
+			(uuid "aa367652-912c-4979-8caf-62000ccf92a0")
+		)
+		(instances
+			(project "jhl_synth3"
+				(path "/1003adab-afc6-49b9-9ffc-29acd72582a7"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7072,6 +7484,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 195.58 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "756414e9-5f74-4207-9b41-ec4ee273d484")
+		(property "Reference" "#PWR057"
+			(at 195.58 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "331ead24-911f-44aa-9123-815733c415f8")
+		)
+		(instances
+			(project "jhl_synth3"
+				(path "/1003adab-afc6-49b9-9ffc-29acd72582a7"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 236.22 96.52 0)
 		(unit 1)
@@ -7473,6 +7964,85 @@
 			(project "jhl_synth3"
 				(path "/1003adab-afc6-49b9-9ffc-29acd72582a7"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 190.5 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1abfc66-44c3-46c2-b3c0-a4ec69e063db")
+		(property "Reference" "SW1"
+			(at 201.93 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 201.93 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 190.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d1054b87-dbf5-4f91-b2c0-216af43678fb")
+		)
+		(pin "1"
+			(uuid "2426ff06-bc95-45c9-bb00-5df37af1c21e")
+		)
+		(instances
+			(project "jhl_synth3"
+				(path "/1003adab-afc6-49b9-9ffc-29acd72582a7"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
